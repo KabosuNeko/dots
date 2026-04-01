@@ -1,0 +1,21 @@
+[general]
+# Add your standard general settings here
+framerate = 60
+
+[color]
+# Enable gradient
+gradient = 1
+
+# Define the number of colors in the gradient (up to 8)
+gradient_count = 6
+
+# Map Pywal colors to the gradient (bottom to top of the screen)
+gradient_color_1 = '{color1}'
+gradient_color_2 = '{color2}'
+gradient_color_3 = '{color3}'
+gradient_color_4 = '{color4}'
+gradient_color_5 = '{color5}'
+gradient_color_6 = '{color6}'
+
+# Optional: Set the background color (uncomment to use)
+# background = '{background}'
