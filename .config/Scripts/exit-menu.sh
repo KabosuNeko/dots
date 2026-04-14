@@ -10,8 +10,7 @@ ACTION=$(echo "$SELECTED" | awk '{print $2}')
 
 case "$ACTION" in
     Lock)
-        # Assuming you use slock, i3lock, or xscreensaver
-        slock || i3lock-color || xscreensaver-command -lock
+        slock
         ;;
     Suspend)
         systemctl suspend
