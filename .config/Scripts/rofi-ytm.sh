@@ -4,7 +4,7 @@
 
 OPTIONS="󰐊 Play/Pause\n󰒭 Next\n󰒮 Previous"
 
-SELECTED=$(echo -e "$OPTIONS" | rofi -dmenu -i -p "YouTube Music:" -theme ~/.config/rofi/powermenu.rasi)
+SELECTED=$(echo -e "$OPTIONS" | rofi -dmenu -i -p "YouTube Music:")
 
 # Extract only the action word
 ACTION=$(echo "$SELECTED" | awk '{print $2}')
