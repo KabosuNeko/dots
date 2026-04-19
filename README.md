@@ -1,6 +1,4 @@
 # ⛺ Cozy dots
-
-## Introduction
 My personal dots file
 
 ## Setup
